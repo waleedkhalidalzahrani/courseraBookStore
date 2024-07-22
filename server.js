@@ -6,8 +6,11 @@ app.use(express.json());
 
 // Sample in-memory data
 let books = [
-    { isbn: '1234567890', title: 'Book A', author: 'Author X', reviews: [] },
-    { isbn: '0987654321', title: 'Book B', author: 'Author Y', reviews: [] }
+    { isbn: '1', title: 'Things fali apart', author: 'Chinua Achebe', reviews: [] },
+    { isbn: '2', title: 'Hans Christan, andeosen', author: 'Damte Alighieri', reviews: [] },
+    { isbn: '3', title: 'The Divien Comedy', author: 'faily tolas', reviews: [] },
+    { isbn: '4', title: 'The Epic Of Gilgamesh', author: 'Unknown', reviews: [] },
+    { isbn: '5', title: 'The Book Of Job', author: 'Unknown', reviews: [] }
 ];
 
 let users = []; // This will be a list of registered users
